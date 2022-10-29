@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Two</title>
+</head>
+<body>
+    <!-- // LISTS -->
+    <!-- List types : Square, disc, circle -->
+    <ul type="circle">
+        <li>Potato</li>
+        <li>Tomato</li>
+        <li>Brinjal</li>
+        <li>Radish</li>
+    </ul>
+
+    <ol>
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Pear</li>
+        <li>Almonds</li>
+    </ol>
+
+    <ol type="I">
+        <li>Cabbage</li>
+        <li>Cauliflower</li>
+        <li>Neem</li>
+        <li>Masala</li>
+    </ol>
+
+    <ol type="A" start="9">
+        <li>Turmeric</li>
+        <li>Mutton</li>
+        <li>Paneer</li>
+    </ol>
+    <hr>
+    <!-- // NESTING -->
+    
+    <ul>
+        <li>Spanish Teams
+            <ul>
+                <li>FC Barcelona</li>
+                <li>Real MAdrid</li>
+                <li>Athletico Madrid</li>
+            </ul>
+        </li>
+        <br>
+        <li>English Teams
+            <ul>
+                <li>Manchester United</li>
+                <li>Liverpool</li>
+                <li>Chelsea</li>
+            </ul>
+        </li>
+    </ul>
+
+    <ol>
+        <li>Italian Teams
+            <ol type="i">
+                <li>AC Milan</li>
+                <li>Inter Milan</li>
+                <li>Juventus</li>
+            </ol>
+        </li>
+        <br>
+        <li>German Teams
+            <ol type="i">
+                <li>Bayern Munich</li>
+                <li>Bayer Leverkusen</li>
+                <li>Borussia Dortmund</li>
+            </ol>
+        </li>
+    </ol>
+    <hr>
+
+    <!-- // DESCRIPTION LIST -->
+    <dl>
+        <dt>HTML</dt>
+        <dd><i>It is a markup language</i></dd>
+        <br>
+        <dt>CSS</dt>
+        <dd><i>It is a styling language</i></dd>
+        <br>
+        <dt>C++</dt>
+        <dd><i>It is an object-oriented programming language</i></dd>
+    </dl>
+    <hr>
+
+    <!-- FORMS -->
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="username"><b>Username: </b></label>
+            <input type="text" id="username" required>
+            <br><br>
+            
+            <label for="password"><b>Password: </b></label>
+            <input type="password" id="password" required>
+            <br><br>
+            
+            <label for="gender"><b>Gender: </b></label>
+            <input type="radio" name="g1" id="gender">Male
+            <input type="radio" name="g1" id="gender">Female
+            <input type="radio" name="g1" id="gender">Trans
+            <br><br>
+            
+            <label for="year"><b>Which Year you are in? :</b></label>
+            <select name="" id="year">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+            <br><br>
+            
+            <label for="foodSelect"><b>Favourite Food:</b></label>
+            <select name="" id="foofSelect">
+                <option value="indian">Indian</option>
+                <option value="continental">Continental</option>
+                <option value="mexican">Mexican</option>
+                <option value="italian">Italian</option>
+            </select>
+            <br><br>
+            
+            <label for="hobbies"><b>Enter your hobbies: </b></label>
+            <input type="checkbox" name="hobby" id="hobbies">Reading
+            <input type="checkbox" name="hobby" id="hobbies">Singing
+            <input type="checkbox" name="hobby" id="hobbies">Dancing
+            <input type="checkbox" name="hobby" id="hobbies">Writing
+            <input type="checkbox" name="hobby" id="hobbies">More
+            <br><br>
+            
+            <label for="addr"><b>Enter your Address here: </b></label><br>
+            <textarea name="" id="addr" cols="30" rows="10" placeholder="Address..." required></textarea>
+            <br><br>
+            
+            <!-- onclick is an event trigger attribute -->
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+            <button type="submit" onclick="alert('HELLO')"> Click Me!</button>
+        </fieldset>
+    </form>
+    <br>
+    <hr>
+
+    <!-- // TABLES -->
+
+    <table style="border: 2px solid black;" cellspacing="2" border="2px" width="600px">
+        <tr style="background-color: magenta;">
+            <th>Sports</th>
+            <th>Players</th>
+            <th>Tournaments</th>
+        </tr>
+        <tr>
+            <td>Cricket</td>
+            <td>MS Dhoni</td>
+            <td>ICC World Cup</td>
+        </tr>
+        <tr>
+            <td>Football</td>
+            <td>Lionel Messi</td>
+            <td>UEFA Champions League</td>
+        </tr>
+        <tr>
+            <td>Tennis</td>
+            <td>Roger Federer</td>
+            <td>Wimbledon</td>
+        </tr>
+        <tr>
+            <td>Boxing</td>
+            <td>Mike Tyson</td>
+            <td>World Heavyweight Champion</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+
+    <table style="border: 2px solid black;" cellspacing="2" border="2px" width="600px">
+        <tr>
+            <th>One</th>
+            <th>Two</th>
+            <th>Three</th>
+            <th>Four</th>
+        </tr>
+        <tr>
+            <td colspan="2">Five</td>
+            <td>Six</td>
+            <td>Seven</td>
+        </tr>
+        <tr>
+            <td>Eight</td>
+            <td colspan="3">Nine</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Ten</td>
+            <td colspan="2">Eleven</td>
+            <td>Twelve</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Thirteen</td>
+            <td colspan="2">Fourteen</td>
+        </tr>
+        <tr>
+            <td>Fifteen</td>
+            <td>Sixteen</td>
+            <td>Seventeen</td>
+        </tr>
+    </table>
+</body>
+</html>
