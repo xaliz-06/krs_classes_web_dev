@@ -1,0 +1,121 @@
+/* GENERAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    text-align: center;
+}
+
+nav {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* LINK STYLES */
+
+a {
+    color: whitesmoke;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+a:hover {
+    color: white;
+    background-color: #3b3b3b;
+}
+
+
+/* BUTTON STYLES */
+
+button {
+    background-color: #181818;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+button:hover {
+    border-width: 3px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-btn {
+    width: 140px;
+    padding: 14px 20px;
+    font-weight: 800;
+    font-size: medium;
+    border: 1px solid white;
+}
+
+.try-for-free {
+    background-color: #4452fe;
+    border: none;
+}
+
+.learn-more {
+    border: 1px solid white;
+}
+
+.uncolored-btn:hover {
+    background-color: #5d5b5b;
+}
+
+.colored-btn:hover {
+    background-color: #505efb;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+
+/* CONTENT STYLES */
+
+.content {
+    margin: 80px auto 70px;
+    color: whitesmoke;
+    width: 52%;
+}
+
+.big-heading {
+    font-size: 3rem;
+}
+
+.description {
+    margin: 50px 140px;
+    font-size: 1rem;
+}
+
+.cta {
+    margin: 0 0 15px 0;
+}
+
+
+/* CTA STYLES */
+
+.action-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-btn {
+    margin: 0px 10px;
+    width: 13%;
+    height: 40px;
+    font-weight: 600;
+    font-size: medium;
+    padding: 10px;
+}
+
+
+
+
