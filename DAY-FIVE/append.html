@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #special {
+            color: red;
+        }
+    </style>
+    <title>Append</title>
+</head>
+<body>
+    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, provident.</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam beatae recusandae minima placeat reprehenderit adipisci alias nisi itaque dolores omnis.</p>
+    <div id="moreText">
+        <p id="p1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corporis quam perspiciatis sed temporibus eligendi sequi dignissimos magni sint? Totam!</p>
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odit ducimus possimus excepturi suscipit voluptates voluptatum dolorum fuga dicta assumenda!</p>
+    </div>
+
+    <script>
+        const para = document.createElement("p");
+        const node = document.createTextNode("THIS IS A NEW TEXT PARAGRAPH");
+        // para.style.color = "blue";
+        para.id = "special";
+        para.appendChild(node);
+
+        const element = document.getElementById("moreText");
+        const child = document.getElementById("p2");
+        element.insertBefore(para, child);
+    </script>
+</body>
+</html>

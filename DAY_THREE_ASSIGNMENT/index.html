@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Boibhav Chakraborty - 2130104">
+    <title>DAY 3 ACTIVITY</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!--NAV BAR  -->
+    <header>
+        <nav>
+            <img src="./img/pic/madang-logo.svg" class="madang-logo" alt="nav-logo">
+            <div class="menu">
+                <a href="#" class="menu-link">ABOUT US</a>
+                <a href="#" class="menu-link">MENU</a>
+                <a href="#" class="menu-link">CAPABILITIES</a>
+                <a href="#" class="menu-link">SEARCH MENU</a>
+            </div>
+            <button class="cart"><img src="./img/pic/cart-shopping-solid.svg" class="cart-logo" alt="cart-logo">    0 items</button>
+        </nav>
+
+        <!-- FIRST DISPLAY -->
+        <section class="first-display">
+            <div class="first-display-content">
+                <h1 class="big-heading">Healthy Inside, Fresh <span class="green-text">Outside</span></h1>
+                <p class="content-para">We deliver healthy food that are ready to eat. Just choose your own menu you like.</p>
+                <button class="learn-more colored">Learn More</button>
+        </section>
+    </header>
+
+    <main>
+        <!-- HOW IT WORKS -->
+        <section class="how-it-works">
+            <h3 class="work-heading">HOW IT WORKS</h3>
+            <div class="work-cards">
+                <div class="work-card">
+                    <img src="./img/pic/meal.svg" class="card-logo" alt="work-card-01-logo">
+                    <h4 class="card-header">Choose Your Favorite</h4>
+                    <p class="work-para">Choose your favorite meals and order online or by phone. It's easy to customize your order.</p>
+                </div>
+                <div class="work-card">
+                    <img src="./img/pic/delivery.svg"  class="card-logo"alt="work-card-02-logo">
+                    <h4 class="card-header">We Deliver Your Meals</h4>
+                    <p class="work-para">We prepared and delivered meals arrive at your door. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque, doloremque.</p>
+                </div>
+                <div class="work-card">
+                    <img src="./img/pic/eat-enjoy.svg" class="card-logo" alt="work-card-03-logo">
+                    <h4 class="card-header">Eat And Enjoy</h4>
+                    <p class="work-para">No shopping, no cooking, no counting and no cleaning. Enjoy your healthy meals with your family.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PICTURE SECTION -->
+        <section class="pictures-area">
+            <div class="img-card">
+                <img src="./img/pic/img-card-01.jpeg" class="dish-img" alt="img-card-01">
+                <p class="img-caption-main">Grilled Salmon</p>
+                <p class="img-caption">With Lime Butter Sauce</p>
+            </div>
+            <div class="img-card">
+                <img src="./img/pic/img-card-02.jpeg" class="dish-img" alt="img-card-02">
+                <p class="img-caption-main">Grilled Roast Vegetable</p>
+                <p class="img-caption">With tofu or soybean curd</p>
+            </div>
+            <div class="img-card">
+                <img src="./img/pic/img-card-03.jpeg" class="dish-img" alt="img-card-03">
+                <p class="img-caption-main">Tomatoes Sandwiches</p>
+                <p class="img-caption">With tofu or soybean curd</p>
+            </div>
+            <div class="img-card">
+                <img src="./img/pic/img-card-04.jpeg" class="dish-img" alt="img-card-04">
+                <p class="img-caption-main">Grilled Roast Vegetable</p>
+                <p class="img-caption">With tofu or soybean curd</p>
+            </div>
+        </section>
+
+        <!-- GOALS -->
+
+        <section class="goals">
+            <div class="big-image">
+                <img src="./img/pic/select-program-image.png" alt="big-image-woman-eating salad" class="big-image-salad-woman">
+            </div>
+            <div class="program-selection">
+                <h3 class="goals-heading">YOUR GOAL THAT MATCH YOUR LIFESTYLE</h3>
+                <select name="plan" id="plan">
+                    <option value="weight-loss">I want to loose weight</option>
+                    <option value="eat-healthy">I want to eat healthy</option>
+                    <option value="gain-weight">I want to gain more weight</option>
+                </select>
+                <select name="results" id="results">
+                    <option value="accelerated">I need accelerated results</option>
+                    <option value="progressive">I need slowed progressive results</option>
+                    <option value="consistent">I need consistent results</option>
+                </select>
+                <select name="preference" id="preference">
+                    <option value="vegan">I am vegan</option>
+                    <option value="vegetarian">I am vegetarian</option>
+                    <option value="non-vegetarian">I am non-vegetarian</option>
+                </select>
+                <button class="comapare-programs">Compare All Programs</button>
+            </div>
+        </section>
+        
+        <!-- PRICING -->
+        <section class="pricing">
+            <div class="pricing-content">
+                <label for="select-program">Select Program</label>
+                <select name="select-program" id="select-program">
+                    <option value="acc-weight-loss">Accelerated Weight Loss</option>
+                </select>
+            </div>
+            <div class="price-cards">
+                <div class="price-card">
+                    <div class="price-card-body">
+                        <h6 class="price-card-header">TEST DAY</h6>
+                        <div class="price-details">
+                            <p class="big-price">$39</p>
+                            <p class="per-price">/day</p>
+                        </div>
+                        <p class="price-card-desc">Meals for breakfast, Lunch, Dinner and Snack with 4 Week Rotation</p>
+                        <div class="calories">
+                            <p class="female-calories">Calories Female 1150-1350</p>
+                            <p class="male-calories">Male 1300-1600</p>
+                        </div>
+                        <div class="price-card-features">
+                            <p class="feature">Protein Customization</p>
+                            <p class="feature">Limited Protein</p>
+                            <p class="feature">Customization</p>
+                        </div>
+                    </div>
+                    <div class="order-bar">
+                        <a href="#" class="order-now">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="price-card">
+                    <div class="price-card-body-colored">
+                        <h6 class="price-card-header">ONE WEEK</h6>
+                        <div class="price-details-colored">
+                            <p class="big-price">$200</p>
+                            <p class="per-price">/week</p>
+                        </div>
+                        <p class="price-card-desc">Meals for breakfast, Lunch, Dinner and Snack with 4 Week Rotation</p>
+                        <div class="calories">
+                            <p class="female-calories">Calories Female 1150-1350</p>
+                            <p class="male-calories">Male 1300-1600</p>
+                        </div>
+                        <div class="price-card-features">
+                            <p class="feature">Protein Customization</p>
+                            <p class="feature">Limited Protein</p>
+                            <p class="feature">Customization</p>
+                        </div>
+                    </div>
+                    <div class="order-bar-colored">
+                        <a href="#" class="order-now">ORDER NOW</a>
+                    </div>
+                </div>
+                <div class="price-card">
+                    <div class="price-card-body">
+                        <h6 class="price-card-header">ONE MONTH</h6>
+                        <div class="price-details">
+                            <p class="big-price">$350</p>
+                            <p class="per-price">/month</p>
+                        </div>
+                        <p class="price-card-desc">Meals for breakfast, Lunch, Dinner and Snack with 4 Week Rotation</p>
+                        <div class="calories">
+                            <p class="female-calories">Calories Female 1150-1350</p>
+                            <p class="male-calories">Male 1300-1600</p>
+                        </div>
+                        <div class="price-card-features">
+                            <p class="feature">Protein Customization</p>
+                            <p class="feature">Limited Protein</p>
+                            <p class="feature">Customization</p>
+                        </div>
+                    </div>
+                    <div class="order-bar">
+                        <a href="#" class="order-now">ORDER NOW</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FADE IMAGE -->
+        <section class="faded-img">
+            <img src="./img/pic/video-bg.jpg" alt="faded-img" class="image-darkened">
+        </section>
+
+        <!-- MENU CATEGORY -->
+        <section class="menu-categories">
+            <div class="menu-heading">
+                <h4 class="menu-header">MENU CATEGORIES</h4>
+            </div>
+            <div class="img-belt-01">
+                <img src="./img/pic/img-belt01-1.jpeg" alt="img-belt01-1" class="img-belt01">
+                <img src="./img/pic/img-belt01-2.jpg" alt="img-belt01-2" class="img-belt01">
+                <img src="./img/pic/img-belt01-3.jpeg" alt="img-belt01-3" class="img-belt01">
+                <img src="./img/pic/img-belt01-4.jpeg" alt="img-belt01-4" class="img-belt01">
+            </div>
+            <div class="img-belt-02">
+                <img src="./img/pic/img-belt02-1.jpeg" alt="img-belt02-1" class="img-belt02">
+                <img src="./img/pic/img-belt02-2.jpg" alt="img-belt02-2" class="img-belt02">
+                <img src="./img/pic/img-belt02-3.jpeg" alt="img-belt02-3" class="img-belt02">
+                <img src="./img/pic/img-belt02-4.jpeg" alt="img-belt02-4" class="img-belt02">
+            </div>
+        </section>
+
+        <!-- TEAM -->
+        <section class="team">
+            <div class="team-heading">
+                <h3 class="team-header">OUR PASSIONATE TEAM MEMBER</h3>
+            </div>
+            <div class="team-content">
+                <p class="team-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione modi omnis officia, excepturi deleniti at sit! Tempore sit doloremque explicabo eligendi enim obcaecati quod, dolorem fuga, officiis quibusdam non nobis dolore dolorum ut odit, quis commodi voluptatibus doloribus amet architecto.</p>
+            </div>
+            <div class="team-members">
+                <div class="team-member">
+                    <img src="./img/pic/member1-cropped.png" alt="member-01" class="team-member-img">
+                    <h5 class="team-member-name">MARINKA SULIS</h5>
+                    <p class="team-member-pos">Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <img src="./img/pic/member2_cropped.png" alt="member-02" class="team-member-img">
+                    <h5 class="team-member-name spec">ROY COLEMAN</h5>
+                    <p class="team-member-pos">Chef</p>
+                </div>
+                <div class="team-member">
+                    <img src="./img/pic/member3_cropped.png" alt="member-03" class="team-member-img">
+                    <h5 class="team-member-name">TERESA MAYER</h5>
+                    <p class="team-member-pos">Marketing Director</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="cta">
+            <div class="phone-img">
+                <img src="./img/pic/mobile-phone-big.png" alt="phone-screen" class="phone-screen-img">
+            </div>
+            <div class="cta-content">
+                <h6 class="cta-download">Download the app</h6>
+                <h2 class="tagline">Choose. Eat. Enjoy</h2>
+                <p class="cta-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem quae ducimus ab pariatur consectetur qui quasi nemo saepe? Explicabo, earum voluptas? Nemo id ut commodi doloribus ipsum dolor eius enim.</p>
+                <div class="cta-download-img">
+                    <img src="./img/pic/app-store.png" alt="download-app-store" class="download-button-img">
+                    <img src="./img/pic/google-play.png" alt="download-google-play-store" class="download-button-img">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- FOOTER -->
+        <section class="footer">
+            <div class="footer-logo">
+                <img src="./img/pic/madang-logo.svg" alt="madang-logo" class="footer-img">
+            </div>
+            <div class="footer-links">
+                <div class="footer-card">
+                    <h6 class="footer-link-heading">NUTRITION</h6>
+                    <a href="#" class="footer-link">Sample Menu</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                </div>
+                <div class="footer-card">
+                    <h6 class="footer-link-heading">PRODUCTS</h6>
+                    <a href="#" class="footer-link">Grid</a>
+                    <a href="#" class="footer-link">Single</a>
+                </div>
+                <div class="footer-card">
+                    <h6 class="footer-link-heading">PRICING</h6>
+                    <a href="#" class="footer-link">Program</a>
+                    <a href="#" class="footer-link">Deals</a>
+                </div>
+                <div class="footer-card">
+                    <h6 class="footer-link-heading">SUPPORT</h6>
+                    <a href="#" class="footer-link">Consultation</a>
+                    <a href="#" class="footer-link">About Us</a>
+                </div>
+            </div>
+            <div class="icons">
+                <img src="./img/pic/facebook.svg" alt="fb-icon" class="icon">
+                <img src="./img/pic/twitter.svg" alt="twitter-icon" class="icon">
+                <img src="./img/pic/google.svg" alt="google-icon" class="icon">
+                <img src="./img/pic/instagram.svg" alt="ig-icon" class="icon">
+                <img src="./img/pic/cloud-solid.svg" alt="cloud-icon" class="icon">
+            </div>
+        </section>
+        <section class="copyright">
+            <p class="copyright-para">© 2020-2022 Madang. Inc. ALL RIGHTS RESERVED.</p>
+        </section>
+    </footer>
+
+</body>
+</html>
