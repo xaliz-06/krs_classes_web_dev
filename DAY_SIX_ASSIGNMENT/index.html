@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    </style>
+    <title>Registration Form</title>
+</head>
+<body>
+    <!-- NAV BAR -->
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="krs-logo" id="krs-logo">
+        </div>
+        <div class="nav-bar-links">
+            <a href="#" class="nav-bar-link">Home</a>
+            <a href="#about" class="nav-bar-link">About Us</a>
+            <a href="#footer" class="nav-bar-link">Contact Us</a>
+        </div>
+        <div class="nav-bar-buttons">
+            <button id="login-btn" class="nav-bar-button"><a href="./login.html" target="_blank"
+                    class="btn-link">Login</a></button>
+            <button id="register-btn" class="nav-bar-button"><a href="" class="btn-link">Register</a></button>
+        </div>
+    </div>
+
+    <!-- FORM -->
+    <div class="modal" id="myModal">
+    <div class="registration-form">
+        <div class="registration-box">
+            <h1>REGISTRATION FORM</h1>
+            <br>
+            <form id="myForm">
+                <div class="user-box">
+                    <div>
+                        <label for="name">Name:</label><br>
+                        <input class="form-name" type="text" name="name" placeholder="Enter name here">
+                        <div class="error" id="userNameErr"> </div><br>
+                    </div>
+                    <div>
+                        <label for="phone">Phone:</label><br>
+                        <input class="form-phone" name="phone" type="tel" placeholder="Enter phone no. here">
+                        <div class="error" id="phoneNumErr"> </div><br>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label><br>
+                        <input class="form-email" name="email" type="email" placeholder="Enter your email here">
+                        <div class="error" id="emailErr"></div><br>
+                    </div>
+                    <div>
+                        <label for="gender">Gender:</label>
+                        <div class="gender-items">
+                            <input type="radio" name="gender" value="male" class="input-style">
+                            <label for="male" class="form-gender">Male</label>
+                            <br>
+                            <input type="radio" name="gender" value="female" class="input-style">
+                            <label for="female" class="form-gender">Female</label>
+                            <br>
+                        </div>
+                        <div class="error" id="genderErr"></div><br>
+                    </div>
+                    <div>
+                        <label for="qualification">Qualification:</label>
+                        <div class="qual-items">
+                            <input type="radio" name="qualification" value="student" class="input-style">
+                            <label for="student" class="form-qualification">Student</label>
+                            <br>
+                            <input type="radio" name="qualification" value="teacher" class="input-style">
+                            <label for="teacher" class="form-qualification" >Teacher</label>
+                            <br>
+                        </div>
+                        <div class="error" id="qualErr"></div><br>
+                    </div>
+                    <div>
+                        <label for="course">Course:</label>
+                        <div class="course-items">
+                            <input type="radio" name="course" value="web-dev" class="input-style">
+                            <label for="web-dev" class="form-course">Web Development</label>
+                            <br>
+                            <input type="radio" name="course" value="app-dev" class="input-style">
+                            <label for="app-dev" class="form-course">App Development</label>
+                            <br>
+                        </div>
+                        <div class="error" id="courseErr"></div><br>
+                    </div>
+                    <div>
+                        <label for="country">Country:</label>
+                        <select name="country" id="userCountry" class="form-country">
+                            <option value="India">India</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Bhutan">Bhutan</option>
+                            <option value="Bangladesh">Bangladesh</option>
+                        </select>
+                        <div class="error" id="countryErr"></div><br>
+                    </div>
+                    <div>
+                        <label for="conditions">Conditions:</label>
+                        <ol class="conditions-list">
+                            <li>Each User shall only register once.</li>
+                            <li>It is the user's responsibility to make sure that she/he has sufficient access to internet to participate to the gactivities at the desired extent</li>
+                        </ol>
+                        <div class="condition-check">
+                            <input type="checkbox" name="conditions" value="yes">
+                            <label for="yes" class="form-conditions">"I have read and agreed to all the conditions."</label>
+                        </div>
+                        <div class="error" id="termsErr"></div><br>
+                    </div>
+                    <div>
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" class="form-comments" id="" cols="80" rows="10" placeholder="Enter your comment here...."></textarea>
+                        <div class="error" id="commentsErr"></div><br>
+                    </div>
+                    <div class="buttons">
+                        <button class="registration-page-btn" id="loginButton" type="button">Save Changes</button>
+                        <button class="registration-page-btn" type="reset">Clear</button>
+                    </div> 
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <hr>
+    <!-- FOOTER -->
+    <div class="footer" id="footer">
+        <div class="footer-logo">
+            <img src="https://krs.kiit.ac.in/assets/KRS.b5e08628.png" alt="krs-logo" id="krs-logo-footer">
+        </div>
+        <div class="footer-links">
+            <div class="sitemap">
+                <h2>Sitemap</h2>
+                <h3>Home</h3>
+                <h3>About Us</h3>
+                <h3>Contact Us</h3>
+            </div>
+            <div class="contact-links">
+                <h2>Contact Us</h2>
+                <h3>Instagram</h3>
+                <h3>Twitter</h3>
+                <h3>Facebook</h3>
+                <h3>YouTube</h3>
+                <h3>E-Mail</h3>
+            </div>
+        </div>
+    </div>
+    <script src="form-validation.js">
+    </script>
+</body>
+</html>
