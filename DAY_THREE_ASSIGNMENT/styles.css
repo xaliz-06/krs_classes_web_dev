@@ -184,12 +184,52 @@ nav {
     padding-right: 50px;
 }
 
+.program-selection select {
+    height: 70px;
+    margin-bottom: 30px;
+    border: 1px solid #60BA62;
+    color: #60BA62;
+    padding: 0px 20px 0px 60px;
+    font-size: 1.2rem;
+    font-weight: 250;
+}
+
+.compare-programs {
+    height: 70px;
+    background-color: #60BA62;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 250;
+}
+
+.compare-programs:hover {
+    cursor: pointer;
+}
+
 .goals-heading {
     font-size: 2.5rem;
     font-weight: 350;
     padding-top: 40px;
     padding-bottom: 30px;
     color: #727271;
+}
+
+.pricing-content label {
+    font-size: 1rem;
+    color: #828380;
+    font-weight: 390;
+}
+
+.pricing-content select {
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    border: 1px solid #60BA62;
+    color: #60BA62;
+    padding: 0px 20px 0px 15px;
+    font-size: 1rem;
+    font-weight: 250;
 }
 
 .pricing {
@@ -328,6 +368,10 @@ nav {
     width: 23%;
 }
 
+.menu-img {
+    filter: brightness(75%);
+}
+
 .team {
     text-align: center;
     padding-top: 120px;
@@ -396,7 +440,6 @@ nav {
 }
 
 .cta {
-    border: 1px solid black;
     height: 800px;
     padding-top: 100px;
     padding-left: 160px;
@@ -521,4 +564,76 @@ nav {
     color: white;
     font-weight: 400;
     letter-spacing: 1.5px;
+}
+
+.blog {
+    height: 850px;
+    background-color: rgb(243, 242, 242);
+    text-align: center;
+}
+
+.blog-heading {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #727271;
+}
+
+.blog-header {
+    padding: 80px 0px 40px;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 360px;
+    position: relative;
+    margin: 0px 15px;
+}
+
+.blog-post-bg {
+    width: 360px;
+    border-radius: 5px;
+}
+
+.blog-post-content {
+    background-color: white;
+    height: 420px;
+    width: 330px;
+    margin: 0 auto;
+    position: absolute;
+    top: 180px;
+    right: 15px;
+    border-radius: 5px;
+    padding: 25px;
+    text-align: left;
+    color: #727271;
+}
+
+.blog-post-heading {
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.blog-post-date {
+    padding: 12px 0px;
+    font-weight: 390;
+}
+
+.blog-post-para {
+    line-height: 1.2;
+    font-weight: 390;
+}
+
+.blog-comments {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post-link {
+    color:#60BA62;
 }
